@@ -17,93 +17,89 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header-line">
-      <div class="container menu-container">
+    <header class="header">
+      <div class="container header__container">
         <nav class="nav">
           <a class="logo" href="index.html"
-            >Web<span class="logo-upper">Studio</span></a
+            >Web<span class="logo--upper">Studio</span></a
           >
-          <ul class="nav-container">
-            <li class="nav-hover">
-              <a class="nav-link nav-link-current" href="index.html">Agencja</a>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link menu__link--current" href="index.html">Agencja</a>
             </li>
-            <li class="nav-hover""><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-            <li class="nav-hover"><a class="nav-link" href="#">Kontkat</a></li>
+            <li class="menu__item""><a class="menu__link" href="portfolio.html">Portfolio</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Kontkat</a></li>
           </ul>
         </nav>
-        <ul class="tel-mail">
+        <ul class="contact">
           <li>
-            <a class="tel-mail-link" href="mailto:info@devstudio.com">
-              <svg width="16" height="12" class="tel-mail-icon">
-                <use href="./images/icons.svg#icon-envelope"></use></svg
-              >info@devstudio.com</a
-            >
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg width="16" height="12" class="contact__icon">
+                <use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
           </li>
           <li>
-            <a class="tel-mail-link" href="tel:+48111111111"
-              ><svg width="10" height="16" class="tel-mail-icon">
-                <use href="./images/icons.svg#icon-smartphone"></use></svg
-              >+48 111 111 111</a
-            >
+            <a class="contact__link" href="tel:+48111111111"
+              ><svg width="10" height="16" class="contact__icon">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg>+48 111 111 111</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <section class="slogan-section">
+      <section class="slogan">
         <div class="container">
-          <h1 class="slogan">Efektywne rozwiązania dla waszego biznesu</h1>
-          <button data-modal-open class="button-order" type="button">Zamów usługę</button>
+          <h1 class="slogan__title">Efektywne rozwiązania dla waszego biznesu</h1>
+          <button data-modal-open class="slogan__btn" type="button">Zamów usługę</button>
         </div>
       </section>
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Nasze atuty</h2>
-          <ul class="advantage-container">
-            <li class="advantage-item">
-              <div class="advantage-icon">
+          <ul class="advantage">
+            <li class="advantage__item">
+              <div class="advantage__icon">
                 <svg width="70" height="70">
                   <use href="images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="advantage">Lorem, ipsum.</h3>
-              <p class="advantage-text">
+              <h3 class="advantage__title">Lorem, ipsum.</h3>
+              <p class="advantage__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="advantage-item">
-              <div class="advantage-icon">
+            <li class="advantage__item">
+              <div class="advantage__icon">
                 <svg width="70" height="70">
                   <use href="images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="advantage">Lorem, ipsum.</h3>
-              <p class="advantage-text">
+              <h3 class="advantage__title">Lorem, ipsum.</h3>
+              <p class="advantage__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="advantage-item">
-              <div class="advantage-icon">
+            <li class="advantage__item">
+              <div class="advantage__icon">
                 <svg width="70" height="70">
                   <use href="images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="advantage">Lorem, ipsum.</h3>
-              <p class="advantage-text">
+              <h3 class="advantage__title">Lorem, ipsum.</h3>
+              <p class="advantage__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="advantage-item">
-              <div class="advantage-icon">
+            <li class="advantage__item">
+              <div class="advantage__icon">
                 <svg width="70" height="70">
                   <use href="images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="advantage">Lorem, ipsum.</h3>
-              <p class="advantage-text">
+              <h3 class="advantage__title">Lorem, ipsum.</h3>
+              <p class="advantage__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -111,78 +107,78 @@
           </ul>
         </div>
       </section>
-      <section class="section jobs-section">
+      <section class="section offer__section">
         <div class="container">
           <h2 class="section-title">Czym się zajmujemy</h2>
-          <ul class="jobs-container">
-            <li class="job-box">
+          <ul class="offer">
+            <li class="offer__item">
               <img
                 src="images/job1.jpg"
                 alt="Dłonie na klawiaturze komputera. Na ekranie widoczne linie tekstu."
                 width="370px"
                 height="294px"
               />
-              <p class="job-text">aplikacje komputerowe</p>
+              <p class="offer__title">aplikacje komputerowe</p>
             </li>
-            <li class="job-box">
+            <li class="offer__item">
               <img
                 src="images/job2.jpg"
                 alt="Smartfony na ekranie komputera."
                 width="370"
                 height="294"
               />
-              <p class="job-text">aplikacje mobilne</p>
+              <p class="offer__title">aplikacje mobilne</p>
             </li>
-            <li class="job-box">
+            <li class="offer__item">
               <img
                 src="images/job3.jpg"
                 alt="Paleta kolorów na ekranie tableta."
                 width="370"
                 height="294"
               />
-              <p class="job-text">rozwiązania graficzne</p>
+              <p class="offer__title">rozwiązania graficzne</p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="team-box section">
+      <section class="section team__section">
         <div class="container">
           <h2 class="section-title">Nasz zespół</h2>
-          <ul class="team-container">
-            <li class="member-box">
+          <ul class="team">
+            <li class="team__card">
               <img
                 src="images/productdesigner.jpg"
                 alt="John Doe - Product Designer"
                 width="270"
                 height="260"
               />
-              <div class="member-text">
-                <h3 class="member">John Doe</h3>
-                <p class="position">Product Designer</p>
-                <ul class="social-links">
+              <div class="member">
+                <h3 class="member__name">John Doe</h3>
+                <p class="member__position">Product Designer</p>
+                <ul class="socials">
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-inst"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-twt"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-fb"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-lin"></use>
                       </svg>
@@ -191,40 +187,40 @@
                 </ul>
               </div>
             </li>
-            <li class="member-box">
+            <li class="team__card">
               <img
                 src="images/frontenddev.jpg"
                 alt="John Doe - Frontend Developer"
                 width="270"
                 height="260"
               />
-              <div class="member-text">
-                <h3 class="member">John Doe</h3>
-                <p class="position">Frontend Developer</p>
-                <ul class="social-links">
+              <div class="member">
+                <h3 class="member__name">John Doe</h3>
+                <p class="member__position">Frontend Developer</p>
+                <ul class="socials">
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-inst"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-twt"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-fb"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-lin"></use>
                       </svg>
@@ -233,40 +229,40 @@
                 </ul>
               </div>
             </li>
-            <li class="member-box">
+            <li class="team__card">
               <img
                 src="images/marketing.jpg"
                 alt="John Doe - Marketing"
                 width="270"
                 height="260"
               />
-              <div class="member-text">
-                <h3 class="member">John Doe</h3>
-                <p class="position">Marketing</p>
-                <ul class="social-links">
+              <div class="member">
+                <h3 class="member__name">John Doe</h3>
+                <p class="member__position">Marketing</p>
+                <ul class="socials">
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-inst"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-twt"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-fb"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-lin"></use>
                       </svg>
@@ -275,40 +271,40 @@
                 </ul>
               </div>
             </li>
-            <li class="member-box">
+            <li class="team__card">
               <img
                 src="images/uidesigner.jpg"
                 alt="John Doe - UI Designer"
                 width="270"
                 height="260"
               />
-              <div class="member-text">
-                <h3 class="member">John Doe</h3>
-                <p class="position">UI Designer</p>
-                <ul class="social-links">
+              <div class="member">
+                <h3 class="member__name">John Doe</h3>
+                <p class="member__position">UI Designer</p>
+                <ul class="socials">
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-inst"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-twt"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-fb"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="circle" href="#">
+                    <a class="socials__link socials__link--member" href="#">
                       <svg style="fill: currentColor" width="20" height="20">
                         <use href="./images/icons.svg#icon-lin"></use>
                       </svg>
@@ -323,44 +319,44 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Nasi klienci</h2>
-          <ul class="client-box">
+          <ul class="client">
             <li>
-              <a class="client-card" href="#">
+              <a class="client__link" href="#">
                 <svg style="fill: currentColor" width="170" height="92">
                   <use href="./images/icons.svg#icon-client-1"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="client-card" href="#">
+              <a class="client__link" href="#">
                 <svg style="fill: currentColor" width="170" height="92">
                   <use href="./images/icons.svg#icon-client-2"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="client-card" href="#">
+              <a class="client__link" href="#">
                 <svg style="fill: currentColor" width="170" height="92">
                   <use href="./images/icons.svg#icon-client-3"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="client-card" href="#">
+              <a class="client__link" href="#">
                 <svg style="fill: currentColor" width="170" height="92">
                   <use href="./images/icons.svg#icon-client-4"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="client-card" href="#">
+              <a class="client__link" href="#">
                 <svg style="fill: currentColor" width="170" height="92">
                   <use href="./images/icons.svg#icon-client-5"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="client-card" href="#">
+              <a class="client__link" href="#">
                 <svg style="fill: currentColor" width="170" height="92">
                   <use href="./images/icons.svg#icon-client-6"></use>
                 </svg>
@@ -370,17 +366,17 @@
         </div>
       </section>
     </main>
-    <footer class="bottom-box">
-      <div class="container footer-box">
+    <footer class="footer">
+      <div class="container footer__container">
         <div>
           <a class="logo" href="index.html"
-            >Web<span class="logo-bottom">Studio</span></a
+            >Web<span class="logo--bottom">Studio</span></a
           >
-          <address class="address-links address-margin">
-            <ul class="address-container">
+          <address class="address">
+            <ul class="address__container">
               <li>
                 <a
-                  class="bottom-address"
+                  class="address__link"
                   href="https://goo.gl/maps/hLSNEV6A5jhqSZBm9"
                   target="_blank"
                   rel="noopener nofollow"
@@ -388,67 +384,59 @@
                 >
               </li>
               <li>
-                <a class="bottom-tel-mail" href="mailto:info@devstudio.com"
+                <a class="address__link address__link--contact" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a class="bottom-tel-mail" href="tel:+48111111111"
+                <a class="address__link address__link--contact" href="tel:+48111111111"
                   >+48 111 111 111</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="invite-box">
-          <p class="invite">dołącz do nas</p>
-          <ul class="social-links-bottom">
+        <div class="invite">
+          <p class="invite__title">dołącz do nas</p>
+          <ul class="socials socials__footer">
             <li>
-              <a href="#">
-                <div class="circle circle-bottom">
-                  <svg width="20" height="20">
+              <a class="socials__link socials__link--footer" href="#">
+                  <svg style="fill: currentColor" width="20" height="20">
                     <use href="./images/icons.svg#icon-inst"></use>
                   </svg>
-                </div>
               </a>
             </li>
             <li>
-              <a href="#">
-                <div class="circle circle-bottom">
-                  <svg width="20" height="20">
+              <a class="socials__link socials__link--footer" href="#">
+                  <svg style="fill: currentColor" width="20" height="20">
                     <use href="./images/icons.svg#icon-twt"></use>
                   </svg>
-                </div>
               </a>
             </li>
             <li>
-              <a href="#">
-                <div class="circle circle-bottom">
-                  <svg width="20" height="20">
+              <a class="socials__link socials__link--footer" href="#">
+                  <svg style="fill: currentColor" width="20" height="20">
                     <use href="./images/icons.svg#icon-fb"></use>
                   </svg>
-                </div>
               </a>
             </li>
             <li>
-              <a href="#">
-                <div class="circle circle-bottom">
-                  <svg width="20" height="20">
+              <a class="socials__link socials__link--footer" href="#">
+                  <svg style="fill: currentColor" width="20" height="20">
                     <use href="./images/icons.svg#icon-lin"></use>
                   </svg>
-                </div>
               </a>
             </li>
           </ul>
         </div>
-        <form class="newsletter-box" name="newsletter_form" autocomplete="on">
-          <p class="invite">zapisz się do newslettera</p>
-          <div class="newsletter-section">
+        <form class="newsletter" name="newsletter_form" autocomplete="on">
+          <p class="newsletter__title">zapisz się do newslettera</p>
+          <div class="newsletter__container">
             <label>
-              <input class="newsletter-input" type="email" name="newsletter" placeholder="E-mail">
+              <input class="newsletter__input" type="email" name="newsletter" placeholder="E-mail">
             </label>          
-           <button class="btn-submit" type="submit">Zapisz się
-            <svg class="send" width="24" height="24">
+           <button class="newsletter__btn" type="submit">Zapisz się
+            <svg class="newsletter__icon" width="24" height="24">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
            </button>
@@ -458,46 +446,46 @@
     </footer>
      <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button type="button" class="close-btn" data-modal-close>
-              <div class="modal-close">
+          <button type="button" class="close" data-modal-close>
+              <div class="close__btn">
                  <svg width="11" height="11">
                   <use href="./images/icons.svg#icon-x"></use>
                  </svg>
               </div>
           </button>
              <form name="contact_form" autocomplete="on">
-                <p class="contact-form-title">Zostaw swoje dane w formularzu poniżej</p>
-                <label class="contact-form-label">
-                  <p class="contact-form-item">Imię</p>
-                  <div class="contact-form-input-box">
-                    <input class="contact-form-input" type="text" name="name">
-                    <svg class="contact__form__icon" width="18" height="18">
-                      <use href="./images/icons.svg#icon-person"
+                <p class="contact-form__title">Zostaw swoje dane w formularzu poniżej</p>
+                <label class="contact-form__container">
+                  <p class="contact-form__label">Imię</p>
+                  <div class="contact-inset">
+                    <input class="contact-inset__input" type="text" name="name">
+                    <svg class="contact-inset__icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                   </div>
                 </label>
-                <label class="contact-form-label">
-                  <p class="contact-form-item">Telefon</p>
-                  <div class="contact-form-input-box">
-                    <input class="contact-form-input" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"required placeholder="xxx-xxx-xxx">
-                    <svg class="contact__form__icon" width="18" height="18">
-                      <use href="./images/icons.svg#icon-phone"
+                <label class="contact-form__container">
+                  <p class="contact-form__label">Telefon</p>
+                  <div class="contact-inset">
+                    <input class="contact-inset__input" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"required placeholder="xxx-xxx-xxx">
+                    <svg class="contact-inset__icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-phone"></use>
                     </svg>
                   </div>
                 </label>                
-                <label class="contact-form-label">
-                  <p class="contact-form-item">Email</p>
-                  <div class="contact-form-input-box">
-                    <input class="contact-form-input" type="email" name="email">
-                    <svg class="contact__form__icon" width="18" height="18">
-                      <use href="./images/icons.svg#icon-email"
+                <label class="contact-form__container">
+                  <p class="contact-form__label">Email</p>
+                  <div class="contact-inset">
+                    <input class="contact-inset__input" type="email" name="email">
+                    <svg class="contact-inset__icon" width="18" height="18">
+                      <use href="./images/icons.svg#icon-email"></use>
                     </svg>
                   </div>
                 </label>               
                 <label>
-                  <p class="contact-form-item">Komentarz
+                  <p class="contact-form__label">Komentarz
                   </p>
-                    <textarea class="contact-form-textarea" name="comment" rows="7" placeholder="Wprowadź tekst"></textarea>
+                    <textarea class="contact-form__textarea" name="comment" rows="7" placeholder="Wprowadź tekst"></textarea>
                 </label>
                 <div class="agreement">
                   <label class="check">
@@ -506,7 +494,7 @@
                   </label>
                   <p class="agreement__text">Oświadczam iż akceptuję <a class="agreement__link" href="#">Regulamin</a> i <a class="agreement__link"href="#">Politykę Prywatności</a>.</p>
                 </div>
-                <button class="contact__form__btn" type="submit">Wyślij</button>
+                <button class="contact-form__btn" type="submit">Wyślij</button>
              </form>
         </div>
       </div>
